@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{9A04A23E-394D-4108-8761-5D455DC6BB09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2C496C85-DED8-482A-B259-D575D2CD6E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A17A8C3E-0874-4526-8B0B-7D9A17D3F483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{B6818EA6-4950-468B-A53E-33A8B66436E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathConsole", "MathConsole\MathConsole.csproj", "{30399C54-7657-4518-A0A0-EBE1A8B5F583}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LearingPython", "LearningPython\LearingPython.pyproj", "{71216059-4C2D-4261-B384-6D12AFEEDF7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6818EA6-4950-468B-A53E-33A8B66436E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6818EA6-4950-468B-A53E-33A8B66436E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6818EA6-4950-468B-A53E-33A8B66436E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6818EA6-4950-468B-A53E-33A8B66436E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30399C54-7657-4518-A0A0-EBE1A8B5F583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30399C54-7657-4518-A0A0-EBE1A8B5F583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30399C54-7657-4518-A0A0-EBE1A8B5F583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30399C54-7657-4518-A0A0-EBE1A8B5F583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71216059-4C2D-4261-B384-6D12AFEEDF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71216059-4C2D-4261-B384-6D12AFEEDF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A04A23E-394D-4108-8761-5D455DC6BB09} = {A17A8C3E-0874-4526-8B0B-7D9A17D3F483}
+		{2C496C85-DED8-482A-B259-D575D2CD6E25} = {A17A8C3E-0874-4526-8B0B-7D9A17D3F483}
+		{B6818EA6-4950-468B-A53E-33A8B66436E0} = {2C496C85-DED8-482A-B259-D575D2CD6E25}
+		{30399C54-7657-4518-A0A0-EBE1A8B5F583} = {9A04A23E-394D-4108-8761-5D455DC6BB09}
+		{71216059-4C2D-4261-B384-6D12AFEEDF7C} = {A17A8C3E-0874-4526-8B0B-7D9A17D3F483}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9569DE8-856A-458D-BA13-2BF6D59CAF41}
+	EndGlobalSection
+EndGlobal
